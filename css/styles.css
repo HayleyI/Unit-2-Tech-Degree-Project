@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+} 
+
+body {
+    font-family: 'Open Sans', arial, sans-serif;
+    color: #696969;
+    background: rgb(243, 243, 243);
+    margin-top: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Noto Sans', 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: #484848;
+    padding: 0 0 .6em;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 2em 0;
+} 
+
+h2, h3 {
+    color: #606060;
+}
+
+h3 {
+    padding-top: 1em;
+}
+
+nav a {
+    display: block;
+    padding: 1em;
+    background-color: #fcfcfc;
+    margin: .25em 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* nav a:last-child {
+    margin-bottom: .8em;
+} */
+
+.primary-header {
+    margin: auto; 
+    text-align: center;
+    padding: 1em;
+}
+
+.primary-header p {
+    font-size: 1.25em;
+}
+
+.main-content {
+    padding: .5em;
+    background-color: #fcfcfc;
+    text-align: center;
+}
+
+.box {
+    padding: 1.25em 0;
+}
+
+.profile-img {
+    padding: 4em 0 1em;
+}
+
+.box-img {
+    width: 100%;
+}
+
+.contact {
+    background: rgb(243, 243, 243);
+}
+
+
+/* Link Styles -------------- */
+
+a:link {
+    color: #36ACD0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E0AB26;
+}
+
+a:visited {
+    color:  rgb(143, 121, 197); 
+}
+
+a:focus {
+    background-color: rgb(213, 199, 250);
+}
+
+
+
+
+/* Media Queries ------------ */
+
+/* Tablet ------------------- */
+
+@media (min-width:768px) {
+
+
+
+
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+}
+
+
+/* Desktop ------------------- */
+
+@media (min-width:1024px) {
+
+
+
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
