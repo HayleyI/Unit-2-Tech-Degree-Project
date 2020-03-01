@@ -23,7 +23,6 @@ h2 {
     text-transform: uppercase;
     font-size: 1em;
     font-weight: 600;
-    padding: 2em 0;
 } 
 
 h2, h3 {
@@ -34,7 +33,7 @@ h3 {
     padding-top: 1em;
 }
 
-nav a {
+.top-nav a {
     display: block;
     padding: 1em;
     background-color: #fcfcfc;
@@ -63,12 +62,21 @@ nav a {
     text-align: center;
 }
 
+.main-content h2 {
+    padding: 1.5em 0 1em;
+}
+
 .box {
     padding: 1.25em 0;
 }
 
+.box p {
+    padding: 0 2em;
+}
+
 .profile-img {
     padding: 4em 0 1em;
+    width: 100%;
 }
 
 .box-img {
@@ -76,11 +84,26 @@ nav a {
 }
 
 .contact {
-    background: rgb(243, 243, 243);
-    border: 1px solid red;
-    padding: 0;
-    margin: 0;
+    text-align: center;
+    margin: 1em;
+    padding: 2.5em 0;
+    border-bottom: 1px solid rgb(185, 185, 185);
 }
+
+.contact a {
+    font-weight: 600;
+    padding: .5em;
+}
+
+.contact h2 {
+    padding-bottom: 1.5em;
+}
+
+.contact p {
+    padding: .5em 0;
+}
+
+
 
 
 /* Link Styles -------------- */
