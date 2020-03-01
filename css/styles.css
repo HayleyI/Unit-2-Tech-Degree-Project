@@ -8,7 +8,7 @@
 body {
     font-family: 'Open Sans', arial, sans-serif;
     color: #696969;
-    background: rgb(243, 243, 243);
+    background-color: rgb(243, 243, 243);
     margin-top: 0;
 }
 
@@ -165,34 +165,37 @@ a:focus {
 }
 
 
+/* Media Queries -------------- */
 
 
-/* Media Queries ------------ */
-
-
-/* Tablet ------------------- */
+/* Tablet --------------------- */
 
 @media (min-width:768px) {
 
-
-
-
-
-
-    /* Top nav -------------- */
+    /* Top nav ---------------- */
     
+    .top-nav {
+       margin: auto; 
+    }
     
+    .top-nav a {
+        display: inline-block;
+        background-color:rgb(243, 243, 243);
+        padding-bottom: 3em;
+    }
 
-
-
-
+    .primary-header h1 {
+        padding: 0;
+        margin-bottom: .2em;
+    }
 
     /* Profile image float - for tablet and desktop */
 
     .profile-img {
         float:right;
         width: 40%;
-        padding: 0;
+        margin-top: 1.25em;
+        padding: 0 1em 3em 0;
     }
 
     .intro-para {
@@ -220,7 +223,10 @@ a:focus {
         padding-left: 1em;    
     }
 
-    /* Clear fix for float */
+    /* Main content floats ----------- */
+
+
+    /* Clear fix for floats ---------- */
 
     .clearfix::after {
         content: "";
