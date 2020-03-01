@@ -43,13 +43,14 @@ h3 {
     padding: 1em;
 }
 
-.primary-header p {
+.intro-para {
     font-size: 1.25em;
+    line-height: 1.5;
 }
 
 .profile-img {
     padding: 4em 0 1em;
-    width: 100%;
+    width: 350px;
 }
 
 .top-nav a {
@@ -117,12 +118,10 @@ h3 {
     margin: 1em;
     position: relative;
     height: 60px;
-    /* border: 1px solid red; */
 }
 
 footer h3 {
     position: absolute;
-    /* border: 1px solid red; */
     padding: 16px 0;
     margin: 0;
     top: 5%;
@@ -131,7 +130,6 @@ footer h3 {
 
 #bottom-nav-btt {
     position: absolute;
-    /* border: 1px solid red; */
     padding: 1em 0;
     top: 7%;
     right: 1px;
@@ -176,6 +174,36 @@ a:focus {
 
 @media (min-width:768px) {
 
+
+
+
+
+
+    /* Top nav -------------- */
+    
+    
+
+
+
+
+
+    /* Profile image float - for tablet and desktop */
+
+    .profile-img {
+        float:right;
+        width: 40%;
+        padding: 0;
+    }
+
+    .intro-para {
+        float: left;
+        width: 60%;
+        padding: 0 1em;
+        text-align: left;
+    }
+    
+    /* Footer nav - for tablet and desktop */
+
     #bottom-nav-btt {
         display: none;
     }
@@ -192,14 +220,13 @@ a:focus {
         padding-left: 1em;    
     }
 
-
+    /* Clear fix for float */
 
     .clearfix::after {
         content: "";
         clear: both;
         display: table;
       }
-
 }
 
 
@@ -208,7 +235,7 @@ a:focus {
 @media (min-width:1024px) {
 
 
-
+     /* Clear fix for float */
 
     .clearfix::after {
         content: "";
