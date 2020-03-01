@@ -176,7 +176,21 @@ a:focus {
 
 @media (min-width:768px) {
 
+    #bottom-nav-btt {
+        display: none;
+    }
 
+    #bottom-nav-home,
+    #bottom-nav-portfolio,
+    #bottom-nav-contact {
+        display: inline;
+        float: right;
+        padding: 1.25em;
+    }  
+    
+    footer h3 {
+        padding-left: 1em;    
+    }
 
 
 
