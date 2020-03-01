@@ -35,6 +35,11 @@ h3 {
     padding-top: 1em;
 }
 
+p {
+    line-height: 1.65;
+    font-size: 1.2em;
+}
+
 /* Header section ----------------*/
 
 .primary-header {
@@ -90,11 +95,24 @@ h3 {
     width: 100%;
 }
 
+/* Skills Section --------------- */
+
+.skills {
+    padding: 2.5em 1em;
+    background-color: rgb(223, 239, 253);
+    text-align: center;
+}
+
+.skills h2 {
+    padding-bottom: 1em;
+}
+
+
 /* Contact Section --------------- */
 
 .contact {
     text-align: center;
-    margin: 1em;
+    margin: 0 1em 1em;
     padding: 2.5em 0;
     border-bottom: 1px solid rgb(185, 185, 185);
 }
@@ -137,6 +155,7 @@ footer h3 {
 
 #bottom-nav-home,
 #bottom-nav-portfolio,
+#bottom-nav-skills,
 #bottom-nav-contact {
     display: none;
 }
@@ -172,7 +191,7 @@ a:focus {
 
 @media (min-width:768px) {
 
-    /* Top nav ---------------- */
+    /* Top nav for tablet ---------------- */
     
     .top-nav {
        margin: auto; 
@@ -213,6 +232,7 @@ a:focus {
 
     #bottom-nav-home,
     #bottom-nav-portfolio,
+    #bottom-nav-skills,
     #bottom-nav-contact {
         display: inline;
         float: right;
@@ -240,6 +260,19 @@ a:focus {
 
 @media (min-width:1024px) {
 
+    /* Top nav for desktop ---------------- */
+
+    .primary-header h1 {
+        float: left;
+        width: 60%;
+        text-align: left;
+    }
+    
+    .top-nav a {
+        float: left;
+        background-color:rgb(243, 243, 243);
+        padding-bottom: 3em;
+    }
 
      /* Clear fix for float */
 
