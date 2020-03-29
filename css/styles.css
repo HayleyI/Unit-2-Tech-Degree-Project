@@ -40,6 +40,10 @@ p {
     font-size: 1.2em;
 }
 
+.skills {
+    color: #131212
+}
+
 /* Header section ----------------*/
 
 .primary-header {
@@ -58,14 +62,23 @@ p {
     width: 350px;
 }
 
+/* Top nav ----------------------- */
+
 .top-nav a {
     display: block;
     padding: 1em;
-    background-color: #fcfcfc;
+    background-color: rgb(223, 239, 253);  /* original - background-color: #fcfcfc; */
     margin: .25em 0;
     text-transform: uppercase;
     font-weight: 700;
 }
+
+.top-nav ul {
+    list-style-type: none;
+    padding: 0;
+}    
+
+
 
 /* nav a:last-child {
     margin-bottom: .8em;
@@ -97,13 +110,14 @@ p {
 
 /* Skills Section --------------- */
 
-.skills {
+.skills-section {
     padding: 2.5em 1em;
     background-color: rgb(223, 239, 253);
     text-align: center;
+    /* border-top: 60px solid  rgb(243, 243, 243); */
 }
 
-.skills h2 {
+.skills-section h2 {
     padding-bottom: 1em;
 }
 
@@ -197,10 +211,13 @@ a:focus {
        margin: auto; 
     }
     
-    .top-nav a {
+    .top-nav li {
         display: inline-block;
+        padding-bottom: 1.25em;
+    }
+
+    .top-nav a {
         background-color:rgb(243, 243, 243);
-        padding-bottom: 3em;
     }
 
     .primary-header h1 {
@@ -264,12 +281,11 @@ a:focus {
 
     .primary-header h1 {
         float: left;
-        width: 60%;
         text-align: left;
     }
     
-    .top-nav a {
-        float: left;
+    .top-nav ul {
+        float: right;
         background-color:rgb(243, 243, 243);
         padding-bottom: 3em;
     }
