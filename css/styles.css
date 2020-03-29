@@ -36,7 +36,7 @@ h3 {
 }
 
 p {
-    line-height: 1.65;
+    line-height: 1.5;
     font-size: 1.2em;
 }
 
@@ -49,7 +49,7 @@ p {
 .primary-header {
     margin: auto; 
     text-align: center;
-    padding: 1em;
+    padding: 1.5em;
 }
 
 .intro-para {
@@ -78,8 +78,6 @@ p {
     padding: 0;
 }    
 
-
-
 /* nav a:last-child {
     margin-bottom: .8em;
 } */
@@ -87,7 +85,7 @@ p {
 /* Main Content -----------------*/
 
 .main-content {
-    padding: .5em;
+    padding: .5em 1.5em;
     background-color: #fcfcfc;
     text-align: center;
 }
@@ -199,7 +197,7 @@ a:focus {
 
 
 /* Media Queries -------------- */
-
+/* ---------------------------- */
 
 /* Tablet --------------------- */
 
@@ -262,7 +260,18 @@ a:focus {
 
     /* Main content floats ----------- */
 
+    .box-one,
+    .box-two,
+    .box-three,
+    .box-four,
+    .box-five,
+    .box-six {
+        float: left;
+        width: 50%;
+        padding: 10px 10px 30px 10px;
+    }
 
+ 
     /* Clear fix for floats ---------- */
 
     .clearfix::after {
@@ -282,6 +291,7 @@ a:focus {
     .primary-header h1 {
         float: left;
         text-align: left;
+        padding-left: 20px;
     }
     
     .top-nav ul {
@@ -290,6 +300,20 @@ a:focus {
         padding-bottom: 3em;
     }
 
+    /* Main content floats --------------- */
+
+    .box-one,
+    .box-two,
+    .box-three,
+    .box-four,
+    .box-five,
+    .box-six {
+        float: left;
+        width: 33.33%;
+        padding: 10px 10px 30px 10px;
+    }
+
+   
      /* Clear fix for float */
 
     .clearfix::after {
