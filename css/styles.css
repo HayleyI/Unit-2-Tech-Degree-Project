@@ -95,11 +95,11 @@ p {
 }
 
 .box {
-    padding: 1.25em 0;
+    padding: 1.25em 0 1em 0;
 }
 
 .box p {
-    padding: 0 1.5em;
+    padding: 0 1em;
 }
 
 .box-img {
@@ -139,7 +139,7 @@ p {
 }
 
 .contact p {
-    padding: .5em 0;
+    padding: 0 0.5em;
 }
 
 /* Footer ------------------ */
@@ -268,7 +268,11 @@ a:focus {
     .box-six {
         float: left;
         width: 50%;
-        padding: 10px 10px 30px 10px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .box {
+        min-height: 20em;
     }
 
  
@@ -310,9 +314,13 @@ a:focus {
     .box-six {
         float: left;
         width: 33.33%;
-        padding: 10px 10px 30px 10px;
+        padding: 10px 10px 10px 10px;
     }
 
+    .box {
+        min-height: 31.5em;
+        padding-bottom: 0.5em;
+    }
    
      /* Clear fix for float */
 
